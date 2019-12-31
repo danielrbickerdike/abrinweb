@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Roboto+Condensed|Source+Sans+Pro&display=swap');
+
+/* Specify in CSS
+
+Use the following CSS rules to specify these families:
+
+    font-family: 'Gelasio', serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+#myVideo {
+    z-index: -5;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+header {
+    font-size:12px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    font-family: 'Gelasio', serif;
+    font-size:24px;
+    text-shadow: -1px 0 black, 0 5px black, 1px 0 black, 0 -1px black;
+}
+
+input[type=email] {
+    font-family: 'Gelasio', serif;
+    border: 1mm solid white;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 25px;
+    line-height: 50%;
+    font-size:14px;
+}
+
+input[type=submit] {
+    border: 1mm solid white;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 33px;
+}
